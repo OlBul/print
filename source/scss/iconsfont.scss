@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icons';
+  src:
+    url('../../fonts/icons.ttf?dy3cgt') format('ttf'),
+    url('../../fonts/icons.woff?dy3cgt') format('woff'),
+    url('../../fonts/icons.svg?dy3cgt#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before, [class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-delivery .path1:before {
+  content: "\e901";
+  color: rgb(255, 255, 255);
+}
+._icon-delivery .path2:before {
+  content: "\e903";
+  margin-left: -1.2548828125em;
+  color: rgb(13, 56, 107);
+}
+._icon-delivery .path3:before {
+  content: "\e905";
+  margin-left: -1.2548828125em;
+  color: rgb(13, 56, 107);
+}
+._icon-delivery .path4:before {
+  content: "\e906";
+  margin-left: -1.2548828125em;
+  color: rgb(13, 56, 107);
+}
+._icon-price .path1:before {
+  content: "\e907";
+  color: rgb(255, 255, 255);
+}
+._icon-price .path2:before {
+  content: "\e908";
+  margin-left: -1.072265625em;
+  color: rgb(13, 56, 107);
+}
+._icon-price .path3:before {
+  content: "\e909";
+  margin-left: -1.072265625em;
+  color: rgb(13, 56, 107);
+}
+._icon-price .path4:before {
+  content: "\e90a";
+  margin-left: -1.072265625em;
+  color: rgb(13, 56, 107);
+}
+._icon-price .path5:before {
+  content: "\e90b";
+  margin-left: -1.072265625em;
+  color: rgb(13, 56, 107);
+}
+._icon-time .path1:before {
+  content: "\e90c";
+  color: rgb(255, 255, 255);
+}
+._icon-time .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(13, 56, 107);
+}
+._icon-time .path3:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(13, 56, 107);
+}
+._icon-time .path4:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(13, 56, 107);
+}
+._icon-time .path5:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(13, 56, 107);
+}
+._icon-clock:before {
+  content: "\e900";
+}
+._icon-metro:before {
+  content: "\e902";
+}
+._icon-seal:before {
+  content: "\e904";
+}
